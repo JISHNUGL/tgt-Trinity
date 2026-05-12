@@ -1,0 +1,236 @@
+// Mock data used when MySQL database is not available
+// This allows the app to function fully without a database connection
+
+export const mockProducts = [
+  {
+    id: 1,
+    name: 'Organic Avocados',
+    slug: 'organic-avocados',
+    description: 'Fresh, ripe organic avocados sourced from sustainable farms. Perfect for salads, guacamole, and toast.',
+    price: 6.99,
+    stock_quantity: 45,
+    image_url: null,
+    is_organic: true,
+    is_active: true,
+    category_id: 1,
+    category_name: 'Fresh Produce',
+    category_slug: 'fresh-produce',
+    created_at: '2024-01-15T10:00:00Z'
+  },
+  {
+    id: 2,
+    name: 'Organic Baby Spinach',
+    slug: 'organic-baby-spinach',
+    description: 'Tender, nutrient-rich organic baby spinach. Triple-washed and ready to eat. Great for smoothies and salads.',
+    price: 4.49,
+    stock_quantity: 80,
+    image_url: null,
+    is_organic: true,
+    is_active: true,
+    category_id: 1,
+    category_name: 'Fresh Produce',
+    category_slug: 'fresh-produce',
+    created_at: '2024-01-15T10:00:00Z'
+  },
+  {
+    id: 3,
+    name: 'Raw Organic Honey',
+    slug: 'raw-organic-honey',
+    description: 'Pure, unfiltered raw organic honey harvested from wildflower meadows. Rich in antioxidants and natural enzymes.',
+    price: 12.99,
+    stock_quantity: 30,
+    image_url: null,
+    is_organic: true,
+    is_active: true,
+    category_id: 3,
+    category_name: 'Grains & Cereals',
+    category_slug: 'grains-cereals',
+    created_at: '2024-01-16T10:00:00Z'
+  },
+  {
+    id: 4,
+    name: 'Organic Greek Yogurt',
+    slug: 'organic-greek-yogurt',
+    description: 'Creamy, protein-packed organic Greek yogurt made from grass-fed cow milk. No artificial flavors or preservatives.',
+    price: 5.99,
+    stock_quantity: 60,
+    image_url: null,
+    is_organic: true,
+    is_active: true,
+    category_id: 2,
+    category_name: 'Dairy Products',
+    category_slug: 'dairy-products',
+    created_at: '2024-01-17T10:00:00Z'
+  },
+  {
+    id: 5,
+    name: 'Organic Quinoa',
+    slug: 'organic-quinoa',
+    description: 'Premium organic white quinoa, a complete protein grain. Naturally gluten-free and perfect for healthy meals.',
+    price: 8.49,
+    stock_quantity: 100,
+    image_url: null,
+    is_organic: true,
+    is_active: true,
+    category_id: 3,
+    category_name: 'Grains & Cereals',
+    category_slug: 'grains-cereals',
+    created_at: '2024-01-18T10:00:00Z'
+  },
+  {
+    id: 6,
+    name: 'Organic Turmeric Powder',
+    slug: 'organic-turmeric-powder',
+    description: 'Vibrant organic turmeric powder with high curcumin content. Ground fresh for maximum flavor and health benefits.',
+    price: 7.99,
+    stock_quantity: 55,
+    image_url: null,
+    is_organic: true,
+    is_active: true,
+    category_id: 4,
+    category_name: 'Herbs & Spices',
+    category_slug: 'herbs-spices',
+    created_at: '2024-01-19T10:00:00Z'
+  },
+  {
+    id: 7,
+    name: 'Organic Blueberries',
+    slug: 'organic-blueberries',
+    description: 'Plump, sweet organic blueberries bursting with flavor. Rich in antioxidants and perfect for snacking.',
+    price: 5.49,
+    stock_quantity: 40,
+    image_url: null,
+    is_organic: true,
+    is_active: true,
+    category_id: 1,
+    category_name: 'Fresh Produce',
+    category_slug: 'fresh-produce',
+    created_at: '2024-01-20T10:00:00Z'
+  },
+  {
+    id: 8,
+    name: 'Organic Almond Butter',
+    slug: 'organic-almond-butter',
+    description: 'Smooth organic almond butter made from dry-roasted almonds. No added sugar, salt, or palm oil.',
+    price: 11.99,
+    stock_quantity: 35,
+    image_url: null,
+    is_organic: true,
+    is_active: true,
+    category_id: 3,
+    category_name: 'Grains & Cereals',
+    category_slug: 'grains-cereals',
+    created_at: '2024-01-21T10:00:00Z'
+  },
+  {
+    id: 9,
+    name: 'Organic Cheddar Cheese',
+    slug: 'organic-cheddar-cheese',
+    description: 'Sharp organic cheddar cheese aged for 12 months. Made from grass-fed cow milk with no artificial ingredients.',
+    price: 9.49,
+    stock_quantity: 25,
+    image_url: null,
+    is_organic: true,
+    is_active: true,
+    category_id: 2,
+    category_name: 'Dairy Products',
+    category_slug: 'dairy-products',
+    created_at: '2024-01-22T10:00:00Z'
+  },
+  {
+    id: 10,
+    name: 'Organic Basil',
+    slug: 'organic-basil',
+    description: 'Fresh organic sweet basil leaves with an aromatic, peppery flavor. Perfect for Italian dishes and pesto.',
+    price: 3.49,
+    stock_quantity: 70,
+    image_url: null,
+    is_organic: true,
+    is_active: true,
+    category_id: 4,
+    category_name: 'Herbs & Spices',
+    category_slug: 'herbs-spices',
+    created_at: '2024-01-23T10:00:00Z'
+  },
+  {
+    id: 11,
+    name: 'Organic Brown Rice',
+    slug: 'organic-brown-rice',
+    description: 'Whole grain organic brown rice with a nutty flavor. High in fiber and minerals for a nutritious base.',
+    price: 6.49,
+    stock_quantity: 90,
+    image_url: null,
+    is_organic: true,
+    is_active: true,
+    category_id: 3,
+    category_name: 'Grains & Cereals',
+    category_slug: 'grains-cereals',
+    created_at: '2024-01-24T10:00:00Z'
+  },
+  {
+    id: 12,
+    name: 'Organic Strawberries',
+    slug: 'organic-strawberries',
+    description: 'Sweet, juicy organic strawberries picked at peak ripeness. No pesticides, herbicides, or synthetic fertilizers.',
+    price: 4.99,
+    stock_quantity: 0,
+    image_url: null,
+    is_organic: true,
+    is_active: true,
+    category_id: 1,
+    category_name: 'Fresh Produce',
+    category_slug: 'fresh-produce',
+    created_at: '2024-01-25T10:00:00Z'
+  }
+]
+
+export const mockCategories = [
+  { id: 1, name: 'Fresh Produce', slug: 'fresh-produce' },
+  { id: 2, name: 'Dairy Products', slug: 'dairy-products' },
+  { id: 3, name: 'Grains & Cereals', slug: 'grains-cereals' },
+  { id: 4, name: 'Herbs & Spices', slug: 'herbs-spices' }
+]
+
+export const mockOrders = [
+  {
+    id: 1,
+    user_id: 1,
+    order_number: 'ORD-1001-ABC123',
+    total_amount: 45.97,
+    status: 'delivered',
+    shipping_address: '123 Main St, Toronto, ON M5V 2T6, Canada',
+    billing_address: '123 Main St, Toronto, ON M5V 2T6, Canada',
+    payment_method: 'credit_card',
+    created_at: '2024-02-01T10:30:00Z',
+    updated_at: '2024-02-05T14:20:00Z',
+    first_name: 'John',
+    last_name: 'Doe',
+    email: 'john@example.com',
+    item_count: 3,
+    items: [
+      { id: 1, product_id: 1, product_name: 'Organic Avocados', quantity: 2, unit_price: 6.99, total_price: 13.98 },
+      { id: 2, product_id: 5, product_name: 'Organic Quinoa', quantity: 1, unit_price: 8.49, total_price: 8.49 },
+      { id: 3, product_id: 10, product_name: 'Organic Basil', quantity: 3, unit_price: 3.49, total_price: 10.47 }
+    ]
+  },
+  {
+    id: 2,
+    user_id: 1,
+    order_number: 'ORD-1002-DEF456',
+    total_amount: 24.47,
+    status: 'shipped',
+    shipping_address: '456 Oak Ave, Vancouver, BC V6B 1K9, Canada',
+    billing_address: '456 Oak Ave, Vancouver, BC V6B 1K9, Canada',
+    payment_method: 'credit_card',
+    created_at: '2024-02-10T09:15:00Z',
+    updated_at: '2024-02-12T11:00:00Z',
+    first_name: 'John',
+    last_name: 'Doe',
+    email: 'john@example.com',
+    item_count: 2,
+    items: [
+      { id: 4, product_id: 3, product_name: 'Raw Organic Honey', quantity: 1, unit_price: 12.99, total_price: 12.99 },
+      { id: 5, product_id: 8, product_name: 'Organic Almond Butter', quantity: 1, unit_price: 11.99, total_price: 11.99 }
+    ]
+  }
+]

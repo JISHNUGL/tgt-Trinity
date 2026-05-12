@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --organic-primary: 29 107 12;
+    --organic-secondary: 13 78 26;
+    --organic-accent: 139 211 93;
+    --organic-muted: 76 168 69;
+    --organic-white: 255 255 255;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-organic-primary text-white px-6 py-3 rounded-lg font-semibold hover:bg-organic-secondary transition-colors duration-200;
+  }
+  
+  .btn-secondary {
+    @apply bg-organic-accent text-organic-secondary px-6 py-3 rounded-lg font-semibold hover:bg-organic-muted transition-colors duration-200;
+  }
+  
+  .input-field {
+    @apply w-full px-4 py-2 border border-organic-muted rounded-lg focus:outline-none focus:ring-2 focus:ring-organic-primary focus:border-transparent;
+  }
+  
+  .card {
+    @apply bg-white rounded-lg shadow-md border border-organic-muted/20 p-6;
+  }
+}
